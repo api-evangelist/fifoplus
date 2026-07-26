@@ -1,7 +1,30 @@
 aid: fifoplus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fifoplus.png
 name: FIFOplus
-description: FIFOplus is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FIFOplus is a B2B smart-procurement marketplace for the HORECA sector (hotels,
+  restaurants, cafes, and catering) in Saudi Arabia, connecting food-service
+  buyers with suppliers across a webstore and mobile app that lists more than
+  5,000 food and non-food items spanning meat, seafood, dairy, produce, frozen
+  goods, condiments, beverages, packaging, and cleaning supplies. The platform
+  layers ordering, real-time order tracking, inventory, menu, and finance
+  optimization with AI and integrates with point-of-sale systems and credit-terms
+  payment. Founded in 2021 and headquartered in Jeddah, FIFOplus operates across
+  Jeddah, Makkah, Riyadh, and Taif and is backed by the Sanabil 500 MENA Seed
+  Accelerator (500 Global) and Palm Ventures. This profile is maintained by the
+  API Evangelist network; FIFOplus publishes no public developer API, OpenAPI, or
+  developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/fifoplus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Procurement
+- Food and Beverage
+- B2B
+- Marketplace
+- E-Commerce
+- HORECA
+- Supply Chain
+- Saudi Arabia
+- Restaurants
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://fifoplus.com
+  url: https://www.fifoplus.com
+- type: About
+  url: https://www.fifoplus.com/about-us/
+- type: Blog
+  url: https://www.fifoplus.com/blog
+- type: SignUp
+  url: https://www.fifoplus.com/customer/account/create/
+- type: Login
+  url: https://www.fifoplus.com/customer/account/login/
+- type: Support
+  url: https://www.fifoplus.com/helpdesk/ticket/
+- type: HelpCenter
+  url: https://www.fifoplus.com/faqs/
+- type: Contact
+  url: https://www.fifoplus.com/contact/
+- type: TermsOfService
+  url: https://www.fifoplus.com/terms-and-condition/
+- type: PrivacyPolicy
+  url: https://www.fifoplus.com/privacy-policy/
+- type: DomainSecurity
+  url: security/fifoplus-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
