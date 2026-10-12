@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/fifoplus/integrations
+- https://n8n.io/integrations/fifoplus/
+- https://composio.dev/toolkits/fifoplus
+- https://monid.ai/tools/fifoplus
+checked:
+- https://composio.dev/toolkits/fifoplus
+- https://monid.ai/tools/fifoplus
+- https://n8n.io/integrations/fifoplus/
+- https://zapier.com/apps/fifoplus/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
